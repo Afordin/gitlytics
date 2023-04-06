@@ -3,8 +3,8 @@ import { MailIcon } from "../assets/icons/MailIcon";
 
 function Information() {
   return (
-    <section className="flex flex-col items-center justify-center border-t-[1px] border-[#373737]">
-      <article className="flex items-start justify-between gap-2 w-2/3 py-8">
+    <section className="flex items-center justify-center border-t-[1px] border-[#373737]">
+      <article className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-10 md:w-2/3 py-8 w-[90%]">
         <div className="flex flex-col gap-2">
           <h1 className="text-lg text-[#F3F3F3] font-semibold uppercase">
             Resources
@@ -42,11 +42,11 @@ function Information() {
           <h1 className="text-lg text-[#F3F3F3] font-semibold uppercase">
             Subscribe to our Newsletter
           </h1>
-          <p className="text-[#999]">
+          <p className="text-[#999] sm:w-full w-[100px]">
             The lastest Gitlytics news, releases and resources, sent to your
             inbox.
           </p>
-          <div className="flex gap-2">
+          <div className="sm:flex gap-2 hidden">
             <div className="flex items-center justify-center gap-2 py-1 px-3 bg-[#323232] border-[1px] border-[#666] rounded-md">
               <MailIcon height={28} width={28} />
               <input

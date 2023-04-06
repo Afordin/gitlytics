@@ -5,14 +5,14 @@ import { CloudIcon } from "../assets/icons/CloudIcon";
 
 function Header() {
   return (
-    <header className="w-full h-[calc(100vh-105px)] flex flex-col items-center justify-center text-center py-10">
-      <h1 className="font-extrabold h-[300px] text-transparent text-9xl bg-clip-text bg-gradient-to-b from-[#2A2A2A] via-[#F3F3F3] to-[#2A2A2A]">
+    <header className="w-full min-h-[calc(100vh-105px)] flex flex-col items-center justify-center text-center py-10">
+      <h1 className="font-extrabold md:h-[300px] h-[200px] text-transparent md:text-9xl text-7xl bg-clip-text bg-gradient-to-b from-[#2A2A2A] via-[#F3F3F3] to-[#2A2A2A]">
         Github <br /> Analytics
       </h1>
       <p className="text-[#919191] font-bold text-xl">
         The fastest way to see your statistics and curious graphs of Github.
       </p>
-      <div className="flex mt-10 gap-5">
+      <div className="flex flex-col md:flex-row mt-10 gap-5">
         <button className="flex items-center hover:bg-[#F3F3F3] justify-center gap-3 border-[1px] border-[#F3F3F3] py-2 px-4 rounded-md font-semibold hover:text-[#0A0A0A] text-[#F3F3F3] group/play transition-colors">
           <div className="flex items-center justify-center group-hover/play:bg-[#0A0A0A] bg-[#F3F3F3] p-1 rounded-full transition-colors">
             <PlayIcon

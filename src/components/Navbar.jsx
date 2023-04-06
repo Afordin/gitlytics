@@ -6,7 +6,7 @@ import { AdditionalOptions } from "./AdditionalOptions";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between px-16 py-8 items-center bg-[#212121] border-b-[1px] border-[#373737]">
+    <nav className="flex justify-between md:px-16 px-8 py-8 items-center bg-[#212121] border-b-[1px] border-[#373737]">
       <Logo />
       <Search />
       <Menu />

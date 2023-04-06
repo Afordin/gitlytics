@@ -44,7 +44,7 @@ export default function Home() {
         <Navbar />
         <Header />
         <SearchUser />
-        <Information />
+        {/* <Information /> */}
         <Footer />
       </div>
     </>

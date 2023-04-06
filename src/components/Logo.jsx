@@ -11,7 +11,7 @@ function Logo() {
         className="w-10 h-10"
         alt="logo"
       />
-      <h1>Gitlytics</h1>
+      <h1 className="md:block hidden">Gitlytics</h1>
     </div>
   );
 }
